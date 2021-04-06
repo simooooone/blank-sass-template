@@ -18,7 +18,7 @@
     "webpack-dev-server": "^3.11.2"
   },
   "name": "exercise",
-  "description": "Simple client side form validation. Check required, length, email and password match",
+  "description": "Blank sass and react template",
   "version": "1.0.0",
   "main": "index.js",
   "devDependencies": {},
