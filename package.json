@@ -1,4 +1,10 @@
 {
+  "name": "blank-sass-template",
+  "license": "MIT",
+  "description": "Blank sass and react template",
+  "version": "1.0.1",
+  "author": "Simone Foschi <s.foschi@protonmail.com>",
+  "main": "index.js",
   "dependencies": {
     "@babel/core": "^7.13.14",
     "@babel/preset-env": "^7.13.12",
@@ -17,16 +23,10 @@
     "webpack-cli": "^4.6.0",
     "webpack-dev-server": "^3.11.2"
   },
-  "name": "exercise",
-  "description": "Blank sass and react template",
-  "version": "1.0.0",
-  "main": "index.js",
   "devDependencies": {},
   "scripts": {
     "build": "webpack --mode production",
-    "serve": "live-server public/",
+    "serve": "live-server dist/",
     "dev-server": "webpack-dev-server"
-  },
-  "author": "",
-  "license": "ISC"
+  }
 }
